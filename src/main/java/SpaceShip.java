@@ -3,7 +3,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-class SpaceShip {
+public class SpaceShip {
     private int x;
     private int y;
 
