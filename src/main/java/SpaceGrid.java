@@ -1,10 +1,10 @@
 import java.util.Random;
 
-class SpaceGrid {
+public class SpaceGrid {
     private final int size;
     private final char[][] grid;
     private final char EMPTY = '.';
-    private final char DEBRIS = '*';
+    private final char DEBRIS = 'J';
     private final char SHIP = 'S';
     private int debrisRemaining;
 
