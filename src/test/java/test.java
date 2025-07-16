@@ -53,7 +53,7 @@ class SpaceShipTest {
     @Test
     void testInvalidMoveCommand() {
         SpaceShip ship = new SpaceShip(2, 2);
-        ship.move("x", 5); // Commande invalide
+        ship.move("x", 5);
         assertEquals(2, ship.getX(), "Le vaisseau ne doit pas bouger.");
         assertEquals(2, ship.getY(), "Le vaisseau ne doit pas bouger.");
     }

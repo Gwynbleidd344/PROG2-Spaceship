@@ -54,4 +54,8 @@ public class SpaceCollectorGame {
             System.out.println("Score final : " + score);
         }
     }
+
+    public static void main(String[] args) {
+        new SpaceCollectorGame().start();
+    }
 }
